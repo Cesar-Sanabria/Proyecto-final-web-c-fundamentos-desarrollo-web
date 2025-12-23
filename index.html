@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagenes\logo.png">
+    <title>PROYECTO FINAL</title>
+
+    <!-- Vinculando el archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+        <div class="container">
+            <div class="header-left">
+                
+                <div class="logo">
+                    <img src="./imagenes/logo.PNG" alt="" width="100px">
+                </div>
+                <nav>
+                    <a href="...">Menu</a>
+                    <a href="...">Promociones</a>
+                    <a href="...">Productos</a>
+                    <a href="...">Contacto</a>
+                </nav>
+            </div>
+            <!-- Aquí puede ir un buscador -->
+            <div class="header-right">
+                <div class="locacion">
+                    <a href="https://maps.app.goo.gl/WvPd9LivLTHAJbu16">
+                        <span>🌍</span>
+                        <span>Ubicano en</span>
+                    </a>
+
+                </div>
+                <div class="iniciar">
+                    <button class="btn-registro">Regístrese ahora</button>
+                    <button class="btn-iniciar">Iniciar sesión</button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+  
+<body>
+    <h1>EL RINCON DEL PROFE</h1>
+	<p>Sabor que te hará volar</p>
+    <br>
+    <p><i>"El RINCON DEL PROFE es un restaurante especializado en la preparación de alitas de pollo frescas y deliciosas, perfectas para disfrutar en cualquier momento. Nuestras alitas son preparadas con ingredientes de alta calidad y cocinadas con amor y dedicación para ofrecer un sabor único y adictivo. Ofrecemos una variedad de sabores para satisfacer todos los gustos, desde clásicas hasta picantes y BBQ. Nuestro objetivo es proporcionar un ambiente acogedor y un servicio amable para que nuestros clientes se sientan como en casa. ¡Ven y disfruta de nuestras deliciosas alitas!"</i></p>
+	
+	<h2>Nuestras Alitas</h2>
+	<table>
+		<tr>
+			<th>Producto</th>
+			<th>Precio</th>
+			<th>Descripción</th>
+		</tr>
+		<tr>
+			<td>Alitas BBQ</td>
+			<td>$120</td>
+			<td>Alitas de pollo bañadas en salsa BBQ</td>
+		</tr>
+		<tr>
+			<td>Alitas Picantes</td>
+			<td>$130</td>
+			<td>Alitas de pollo con un toque de picante</td>
+		</tr>
+		<tr>
+			<td>Alitas Clásicas</td>
+			<td>$100</td>
+			<td>Alitas de pollo crujientes y deliciosas</td>
+		</tr>
+	</table>
+
+    <h2>Otros Productos</h2>
+	<table>
+		<tr>
+			<th>Producto</th>
+			<th>Precio</th>
+			<th>Descripción</th>
+		</tr>
+		<tr>
+			<td>Papas Fritas</td>
+			<td>$50</td>
+			<td>Papas fritas crujientes y deliciosas</td>
+		</tr>
+		<tr>
+			<td>Refrescos</td>
+			<td>$30</td>
+			<td>Refrescos de diferentes sabores</td>
+		</tr>
+	</table>
+	
+	<h2>Haz tu Pedido</h2>
+	<div class="pedido">
+		<form>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre"><br><br>
+			<label for="producto">Producto:</label>
+			<select id="producto" name="producto">
+				<option value="Alitas BBQ">Alitas BBQ</option>
+				<option value="Alitas Picantes">Alitas Picantes</option>
+				<option value="Alitas Clásicas">Alitas Clásicas</option>
+				<option value="Papas Fritas">Papas Fritas</option>
+				<option value="Refrescos">Refrescos</option>
+			</select><br><br>
+			<label for="cantidad">Cantidad:</label>
+			<input type="number" id="cantidad" name="cantidad"><br><br>
+			<input type="submit" value="Hacer Pedido">
+		</form>
+	</div>
+	
+	<h2>Galería de Productos</h2>
+    <div class="contenedor-flexible">
+	<div class="boxy bbq"><img src="imagenes\ALBBQ.jpg" alt="Alitas BBQ" ></div>
+	<div class="boxy alp"><img src="imagenes\alp.png" alt="Alitas Picantes" ></div>
+	<div class="boxy alc"><img src="imagenes\alc.jpg" alt="Alitas Clásicas" ></div>
+    <div class="boxy pap"><img src="imagenes\PAP.jpg" alt="Papas Fritas" ></div>
+    <div class="boxy ref"><img src="imagenes\REF.png" alt="Refrescos" ></div>
+	</div>
+	
+<br>
+
+<div class="promocion">
+		<h2>¡Promoción del Día!</h2>
+		<p>Compra 2 órdenes de Alitas BBQ y recibe 1 orden de Papas Fritas gratis</p>
+	</div>
+
+<div id="comentario" class="comentario">
+    <h2>Dejanos tus cometarios</h2>
+    <form action="">
+        <div>
+            <div>
+                <label for="fname"> APELLIDOS * </label><br>
+                <input type="Text" name="fname" id="fname"></label>
+            </div>
+            <div>
+                <label for="lname"> NOMBRE * </label><br>
+                <input type="Text" name="lname" id="lname"></label>
+            </div>
+            <div>
+            <label for="email"> CORREO ELECTRONICO * </label><br>
+            <input type="email" name="email" id="email"></label>
+        </div>
+        <div>
+            <p>Te gutaria recibir promociones exclusivas *</p>
+            <div>
+                <input type="radio" id="afirma" name="query_type" value="Si">
+                <label for="afirma">Si</label><br>
+            </div>
+            <div>
+                <input type="radio" id="support" name="query_type" value="No">
+                <label for="negado">No</label><br>
+            </div>
+        </div>
+        </div>
+        <br>
+        <div>
+            <label form="message">Deja tu mensaje</label><br>
+            <textarea name="message" id="message" raws="4" cols="50"></textarea>
+        </div>
+        <inptu type="submit" values="Mandar mensaje"></inptu>
+        </form>
+    </div>
+	<div class="social">
+		<a href="https://www.facebook.com/?locale=es_LA" target="_blank"  > 
+                                                            
+			<img src="imagenes\fa.jpg" alt="Facebook" width="30" height="30">
+		</a>
+		<a href="https://www.instagram.com" target="_blank">
+			<img src="imagenes\in.jpg" alt="Instagram" width="30" height="30">
+		</a>
+	</div>
+</body>
+</html>

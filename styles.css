@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* EL RINCON DEL PROFE */
+header {
+  list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0px;
+    display: flex; /* Alinea los elementos horizontalmente */
+    background-color: #f9f6fa; /* Color de fondo de la barra */
+    overflow: hidden;
+    /* Propiedad clave para la forma ovalada */
+    border-radius: 100px;
+    width: 100%; 
+    border-bottom: 4px solid #410238;
+    margin: 20PX auto; /* Centra la barra en la página */
+}
+
+.logo img {
+  display: block;
+  border-radius: 3em;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header-left nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition-duration: .8s;
+}
+
+.header-left nav a:hover {
+  color: #15ec9e;
+}
+
+.header-right {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.locacion a {
+  text-decoration: none;
+  color: black;
+  transition-duration: .8s;
+}
+
+.locacion a:hover {
+  color: #00754a;
+}
+
+.btn-registro {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-iniciar {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+}
+table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: left;
+		}
+		th {
+			background-color: #f0f0f0;
+		}
+		.pedido {
+			background-color: #f7f7f7;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+
+    .contenedor-flexible{
+  /* acciones de grid */
+    display: grid;
+    grid-template-columns: auto;/* columnas */
+    grid-template-rows: auto;/* filas */
+    grid-gap: 15px; /* espacio entre celdas */
+
+  background-color: blueviolet;
+  border: 2px solid black;
+  width: 600px;
+  height: 500px;
+  color: white;
+}
+.boxy{
+ /* 
+  width: 100px;
+  height: 100px;  */
+  background-color: orange;
+  border: 2px solid black;
+  font-size: 2rem;
+}
+
+.boxy img{
+  width: 100%;
+  height: 100%;
+  object-fit: overflow;  
+}
+
+.bbq{
+ background-color: rgb(8, 219, 8);
+grid-row-start: 1;
+grid-row-end: 2; 
+}
+
+.alp{
+ background-color: rgb(231, 94, 60);
+grid-column-start: 1;
+grid-row-end: 2; 
+grid-column: 2/4;
+}
+
+.alc{
+ background-color: rgb(8, 219, 8);
+grid-row: 2/4; 
+grid-column: 4/5;
+}
+
+		.social {
+			margin-top: 20px;
+		}
+		.social a {
+			margin-right: 10px;
+		}
+        .promocion {
+			background-color: #f3b5b5;
+			padding: 20px;
+			border: 1px solid #cfc3c3;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
